@@ -1,6 +1,7 @@
 {
   "name": "d3.chart-contrib-boilerplate",
   "version": "0.0.1",
+  "boilerplate-version": "0.0.1",
   "description": "A d3.chart boilerplate chart",
   "repository": {
     "type": "git",
