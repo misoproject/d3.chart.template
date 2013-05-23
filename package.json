@@ -1,19 +1,29 @@
 {
   "name": "d3.chart-contrib-boilerplate",
-  "version": "0.0.1",
-  "boilerplate-version": "0.0.1",
+  
   "description": "A d3.chart boilerplate chart",
+
+  "version": "0.0.1",
+  
+  "author": "Your Name",
+  
+  "license": "MIT Expat",
+  
   "repository": {
     "type": "git",
     "url": "git://github.com/yourOrgOrName/d3.chart-contrib-boilerplate.git"
   },
+  
   "keywords": [
     "d3.js",
     "visualization",
     "svg"
   ],
-  "author": "Your Name",
-  "license": "MIT Expat",
+
+  "d3.chart": {
+    "version" : "0.0.1"
+  },
+
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-concat": "~0.1.3",
