@@ -54,9 +54,9 @@ Thank you for using d3.chart!
 
 ## Readme Template:
 
-# <Chart name>
+# Chart name...
 
-<Description goes here>
+Chart description...
 
 ### Sample Use
 
