@@ -6,8 +6,8 @@ module.exports = function(grunt) {
     meta: {
       pkg: grunt.file.readJSON("package.json"),
       srcFiles: [
-        "src/boilerplate.js",
-        "src/boilerplate-extensions.js"
+        "src/template.js",
+        "src/template-extensions.js"
       ]
     },
     watch: {
@@ -50,12 +50,12 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          "dist/d3.chart-contrib-boilerplate.js": "<%= meta.srcFiles %>"
+          "dist/d3.chart.template.js": "<%= meta.srcFiles %>"
         }
       },
       release: {
         files: {
-          "d3.chart-contrib-boilerplate.js": "<%= meta.srcFiles %>"
+          "d3.chart.template.js": "<%= meta.srcFiles %>"
         }
       }
     },
@@ -66,12 +66,12 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          "dist/d3.chart-contrib-boilerplate.min.js": "dist/d3.chart-contrib-boilerplate.js"
+          "dist/d3.chart.template.min.js": "dist/d3.chart.template.js"
         }
       },
       release: {
         files: {
-          "d3.chart-contrib-boilerplate.min.js": "dist/d3.chart-contrib-boilerplate.js"
+          "d3.chart.template.min.js": "dist/d3.chart.template.js"
         }
       }
     }

@@ -1,7 +1,7 @@
 {
-  "name": "d3.chart-contrib-boilerplate",
+  "name": "d3.chart.template",
   
-  "description": "A d3.chart boilerplate chart",
+  "description": "A template for creating d3.chart based charts",
 
   "version": "0.0.1",
   
@@ -11,7 +11,7 @@
   
   "repository": {
     "type": "git",
-    "url": "git://github.com/yourOrgOrName/d3.chart-contrib-boilerplate.git"
+    "url": "git://github.com/yourOrgOrName/d3.chart.chart.git"
   },
   
   "keywords": [
