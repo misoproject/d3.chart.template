@@ -1,4 +1,4 @@
-d3.chart("Boilerplate", {
+d3.chart("TemplateChart", {
   initialize: function() {
 
   }
