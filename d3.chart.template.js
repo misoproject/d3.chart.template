@@ -1,6 +1,6 @@
-/*! d3.chart.template - v0.0.1
+/*! d3.chart.template - v0.1.0
  *  License: MIT Expat
- *  Date: 2013-05-27
+ *  Date: 2013-09-25
  */
 d3.chart("TemplateChart", {
   initialize: function() {

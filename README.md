@@ -8,7 +8,7 @@ To get your chart published on the d3.chart [website](http://misoproject.com/d3-
 ```json
 {
   "d3.chart": {
-    "version" : "0.0.1"
+    "version" : "0.1.2"
   }
 }
 ```
