@@ -14,6 +14,10 @@ module.exports = function(grunt) {
       scripts: {
         files: ["src/**/*.js"],
         tasks: ["jshint"]
+      },
+      styles: {
+        files: ["src/styles/**/*.styl"],
+        tasks: ["stylus"]
       }
     },
     jshint: {
@@ -74,6 +78,18 @@ module.exports = function(grunt) {
           "d3.chart.template.min.js": "dist/d3.chart.template.js"
         }
       }
+    },
+    stylus: {
+      dist: {
+        files: {
+          "dist/d3.chart.template.css" : ["src/styles/**/*.styl"]
+        }
+      },
+      release: {
+        files: {
+          "d3.chart.template.css" : ["src/styles/**/*.styl"]
+        }
+      }
     }
   });
 
@@ -81,7 +97,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-concat");
   grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.loadNpmTasks("grunt-contrib-watch");
+  grunt.loadNpmTasks("grunt-contrib-stylus");
 
-  grunt.registerTask("default", ["jshint", "concat:dist", "uglify:dist"]);
-  grunt.registerTask("release", ["jshint", "concat", "uglify"]);
+  grunt.registerTask("default", ["jshint", "concat:dist", "uglify:dist", "stylus:dist"]);
+  grunt.registerTask("release", ["jshint", "concat", "uglify", "stylus"]);
 };

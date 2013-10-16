@@ -8,7 +8,7 @@ To get your chart published on the d3.chart [website](http://misoproject.com/d3-
 ```json
 {
   "d3.chart": {
-    "version" : "0.1.2"
+    "version" : "0.1.3"
   }
 }
 ```
@@ -21,7 +21,7 @@ This template comes with a few helpful files:
 * A `package.json` file containing some basic placeholder info that you can replace with your chart's details.
 * An `example` folder which might be useful to try out your chart while you develop and to release alongside 
 your chart for others to see how your chart can be utilized.
-
+* The default template comes with a `src/styles` folder for adding chart specific styles. It uses the Stylus library which can be found [here](https://github.com/LearnBoost/stylus).
 
 #### Using Grunt
 
